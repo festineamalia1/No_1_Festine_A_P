@@ -1,0 +1,228 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.piplup {
+  position: relative;
+}
+.piplup .head {
+  position: relative;
+  width: 242px;
+  height: 222px;
+  border-radius: 52% 48% 49% 51% / 49% 52% 48% 51%;
+  background-color: #0099cc;
+   border-left: 2px solid #000; 
+  border-right: 2px solid #000;
+  border-top: 2px solid #000;
+}
+
+.piplup .lips1 {
+  position: absolute;
+  width: 40px;
+  height: 45px;
+  background: #cccc33;
+  top: 120px;
+  right: -6px;
+  border: 2px solid black;
+  border-radius: 45% 55% 51% 49% / 76% 70% 30% 24% ;
+  z-index: 1;
+}
+.piplup .lips2 {
+  position: absolute;
+  width: 38px;
+  height: 30px;
+  background: #cccc33;
+  top: 145px;
+  right: -4px;
+  border: 2px solid black;
+  border-radius: 35% 65% 72% 28% / 14% 29% 71% 86%;
+  
+}
+.piplup .eye {
+  position: absolute;
+  width: 150px;
+  height: 155px;
+  background: #ffffff;
+  border-radius: 47% 53% 50% 50% / 53% 79% 21% 47%;
+  top: 58px;
+  right: 35px;
+  border: 2px solid black;
+  transform: rotate(-15deg);
+  
+}
+.piplup .eye .lens {
+  position: absolute;
+  width: 40px;
+  height: 65px;
+  background: #3366cc;
+  border-radius: 50% 50% 50% 50% / 53% 55% 45% 47%;
+  top: 45px;
+  right: 50px;
+  border: 2px solid black;
+}
+.piplup .eye .lens .pupil {
+  position: absolute;
+  width: 20px;
+  height: 45px;
+  background: #000000;
+  border-radius: 50% 50% 50% 50% / 53% 55% 45% 47%;
+  top: 10px;
+  right: 9px;
+}
+.piplup .collar1 {
+    position: absolute;
+  width: 100px;
+  height: 120px;
+  background: #0099cc;
+  border-radius: 50% 50% 50% 50% / 48% 51% 49% 52%  ;
+  top: 160px;
+  right: 100px;
+  transform: rotate(-40deg);
+   border-left: 2px solid #000; 
+  border-bottom: 2px solid #000;
+  border-right: 2px solid #0099cc;
+  border-top: 2px solid #0099cc;
+ 
+}
+.piplup .collar2 {
+    position: absolute;
+  width: 75px;
+  height: 100px;
+  background: #0099cc;
+  border-radius: 100% 0% 51% 49% / 0% 0% 100% 100% ;
+  top: 175px;
+  right: 45px;
+  transform: rotate(-50deg);
+  border-left: 2px solid #000; 
+  border-bottom: 2px solid #000;
+  border-right: 2px solid #000;
+}
+.piplup .body {
+    position: absolute;
+    width: 175px;
+  height: 165px;
+   top: 200px;
+  right: 75px;
+  background:  #9AD7F6;
+  border-radius: 67% 33% 39% 61% / 62% 57% 43% 38% ;
+  border: 2px solid black;
+}
+.piplup .leg {
+    position: absolute;
+    width: 50px;
+  height: 50px;
+   top: 319px;
+  right: 170px;
+  background: #9AD7F6;
+  border-radius: 55% 45% 49% 51% / 53% 53% 47% 47% ;
+   border-bottom: 2px solid black;
+   border-top: 2px solid #99ccff;
+   border-right: 2px solid #99ccff;
+}
+
+.piplup .wing1 {
+position: absolute;
+width: 60px;
+height: 120px;
+top: 230px;
+  right: 160px;
+   background: #9AD7F6;
+  border-radius:51% 49% 51% 49% / 29% 27% 73% 71% ;
+  border-top: 2px solid #99ccff;
+  
+  border-bottom: 4px solid black;
+  transform: rotate(10deg);
+}
+.piplup .wing2 {
+position: absolute;
+width: 60px;
+height: 120px;
+top: 220px;
+  right: 50px;
+   background: #9AD7F6;
+  border-radius:51% 49% 51% 49% / 29% 27% 73% 71%;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  transform: rotate(-10deg);
+}
+.piplup .back {
+    position: absolute;
+    width: 60px;
+    height: 135px;
+    top: 173px;
+  right: 190px;
+  background-color: #0099cc;
+   border-radius:52% 48% 51% 49% / 48% 49% 51% 52% ;
+   transform: rotate(230deg);
+  border: 2px solid black;
+}
+.piplup .tail1 {
+    position: absolute;
+    width: 27px;
+    height: 80px;
+     top: 190px;
+  right: 250px;
+    background-color: #0099cc;
+   border-radius:52% 48% 51% 49% / 48% 49% 51% 52% ;
+   border: 2px solid black;
+   transform: rotate(150deg);
+}
+.piplup .tail2 {
+    position: absolute;
+    width: 25px;
+    height: 155px;
+     top: 190px;
+  right: 205px;
+    background-color: #0099cc;
+   border-radius:52% 48% 51% 49% / 48% 49% 51% 52% ;
+   border-bottom: 2px solid black;
+  border-left: 2px solid black;
+   transform: rotate(150deg);
+}
+.piplup .chest1 {
+    position: absolute;
+    width: 30px;
+    height: 40px;
+   top: 270px;
+  right: 120px;
+    background-color: #ffffff;
+    border: 2px solid black;
+    border-radius: 52% 48% 51% 49% / 48% 49% 51% 52%  ;
+}
+.piplup .chest2 {
+    position: absolute;
+    width: 10px;
+    height: 40px;
+   top: 267px;
+  right: 73.5px;
+    background-color: #ffffff;
+    border: 2px solid black;
+    border-radius: 52% 48% 51% 49% / 48% 49% 51% 52%  ;
+}
+.piplup .feet1 {
+      position: absolute;
+       width: 35px;
+    height: 85px;
+  top: 330px;
+  right: 180px;
+    background-color: #cccc33;
+    border: 2px solid black;
+    border-radius: 52% 48% 51% 49% / 48% 49% 51% 52% ;
+    transform: rotate(135deg);
+}
+
+.piplup .feet2 {
+      position: absolute;
+       width: 30px;
+    height: 80px;
+  top: 330px;
+  right: 90px;
+    background-color: #cccc33;
+    border: 2px solid black;
+    border-radius: 52% 48% 51% 49% / 48% 49% 51% 52% ;
+    transform: rotate(110deg);
+}
+
